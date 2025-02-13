@@ -15,7 +15,7 @@ public class CustomTextField extends JTextField {
         // Versuche, eine benutzerdefinierte Schriftart zu laden
         try {
             // Ändere den Pfad zu deiner Schriftart-Datei
-            String fontPath = "Font/Minecraft-Regular.otf";
+            String fontPath = "Spellcraft/Font/Minecraft-Regular.otf";
             Font customFont = Font.createFont(Font.TRUETYPE_FONT, new File(fontPath)).deriveFont(18f); // Schriftgröße 18
             setFont(customFont);
         } catch (FontFormatException | IOException e) {
